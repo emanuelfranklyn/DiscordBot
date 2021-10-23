@@ -12,7 +12,7 @@ Linguagem usada: Typescript/Node
 
 ## Configurações:
 
-Arquivo de configurações: `configs.js`
+Arquivos de configurações: `src/configs`
 
 Variaveis do ambiente:
 - DiscordToken: 'Token do bot adquirido pelo painel do discord'

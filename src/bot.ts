@@ -1,11 +1,11 @@
 class bot {
-  useless: boolean;
-  constructor() {
-    this.useless = true;
+  ws: any;
+  constructor({ websocket }) {
+    this.ws = websocket;
   }
 
   start(): void {
-    console.log(this.useless);
+    this.ws.login('Discord Token');
   }
 }
 

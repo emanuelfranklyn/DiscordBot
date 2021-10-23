@@ -11,7 +11,7 @@
       "no-async-promise-executor": ["off"],
       "no-empty-pattern": ["off"],
       "no-undef": ["error"],
-      "no-var": ["error"],
+      "no-var": ["off"],
       "object-curly-spacing": ["error", "always"],
       "quotes": ["error", "single", { "allowTemplateLiterals": true }],
       "semi": ["error", "always"],
